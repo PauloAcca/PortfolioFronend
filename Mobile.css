@@ -1,0 +1,16 @@
+:root{
+    /* Colores */
+    --Division-sections:rgba(39, 39, 39, 1);
+    --letters:White;
+    --projects:rgba(88, 88, 88, 0.5);
+    --buttons:rgba(78, 78, 78, 0.45);
+}
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+html{
+    font-size: 62.5%;
+    font-family: 'Poppins', sans-serif;
+}
