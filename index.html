@@ -5,20 +5,38 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./Mobile.css">
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,500;0,700;1,200&display=swap" rel="stylesheet">
-    <title>Portfolio</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,500;0,700;1,200&display=swap" rel="stylesheet">    <title>Portfolio</title>
 </head>
 <body>
-     <header>
-        
-     </header>
-     <main>
-        <section class="Start">
-            <img src="" alt="">
+    <header>
+        <input type="checkbox" id="nav-comprimido">
+        <nav class="nav-comprimido">
+            
+            <label for="nav-comprimido"><span></span></label>
+            <div class="container-menu">
+                <div class="cont-menu">
+                    <nav>
+                        <a href="#">Home</a>
+                        <a href="#">About</a>
+                        <a href="#">Portfolio</a>
+                        <a href="#">Contact</a>
+                    </nav>
+                    <label for="nav-comprimido" class="icon-equis"><span></span></label>
+                </div>
+            </div>
+        </nav>
+        <section class="start">
+            <img class="perfil" src="./assets/img/Ciro.jpeg" alt="perfil">
             <h1>Hi! Im Paulo Accardo</h1>
             <h3>Full stack web developer</h3>
             <button>Download CV</button>
         </section>
+    </header>
+    
+
+   <!-- SECCION ABOUT -->
+
+    <main>
         <section class="About">
             <div>
                 <p><strong>About</strong></p>
@@ -36,6 +54,9 @@
             <span></span>
             <span></span>
         </section>
+
+        <!-- SECCION PORTFOLIO -->
+
         <section class="Portfolio">
             <div>
                 <p><strong>Portfolio</strong></p>
@@ -66,6 +87,9 @@
             </section>
         </section>
      </main>
+
+     <!-- SECCION CONTACT -->
+     
      <footer>
         <div><p><strong>Contact</strong></p></div>
 
